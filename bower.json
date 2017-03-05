@@ -1,0 +1,29 @@
+{
+  "name": "svg.colorAt.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/svgdotjs/svg.colorAt.js",
+  "authors": [
+    "Wout Fierens",
+    "Ulrich-Matthias Schäfer"
+  ],
+  "description": "An extension for svg.js which allows to pick a color from a gradint at a specific position",
+  "main": [
+    "./dist/svg.colorAt.js"
+  ],
+  "keywords": [
+    "svg.js",
+    "gradient",
+    "colorpicker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "svg.js":"^2.4.0"
+  }
+}
