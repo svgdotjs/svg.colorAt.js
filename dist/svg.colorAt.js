@@ -1,4 +1,4 @@
-/*! svg.colorAt.js - v1.0.0 - 2017-03-05
+/*! svg.colorat.js - v1.0.0 - 2017-03-05
 * https://github.com/svgdotjs/svg.colorAt.js
 * Copyright (c) 2017 Wout Fierens; Licensed MIT */
 ;SVG.extend(SVG.Gradient, {
