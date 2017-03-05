@@ -1,5 +1,5 @@
 {
-  "name": "svg.colorAt.js",
+  "name": "svg.colorat.js",
   "version": "1.0.0",
   "description": "An extension for svg.js which allows to pick a color from a gradint at a specific position",
   "keywords": [

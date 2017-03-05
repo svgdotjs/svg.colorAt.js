@@ -12,8 +12,8 @@ For a demo see https://jsfiddle.net/wout/sn7um5fr/
 Install `svg.colorAt.js` using bower or npm:
 
 ```
-bower install svg.colorAt.js
-npm install svg.colorAt.js
+bower install svg.colorat.js
+npm install svg.colorat.js
 ```
 
 Include the script after svg.js
