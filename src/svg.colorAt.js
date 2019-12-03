@@ -16,14 +16,17 @@
     var blend, relative, fo, lo
 
     // create morph
-    blend = new SVG.Color(first.attr('stop-color'))
-    blend.morph(last.attr('stop-color'))
-
+    //blend = new SVG.Color(first.attr('stop-color'))
+    // blend.morph(last.attr('stop-color'))
+    //@modify-date 2019-12-3
+    //@author dxr
+    blend = new SVG.Color(first.attr('stop-color')).to(last.attr('stop-color'));
     // calculate relative offset
     fo = first.attr('offset')
     lo = last.attr('offset')
     relative = (offset - fo) / (lo - fo)
-
-    return blend.at(relative)
+    //return blend.at(relative)
+    //
+     return blend.at(relative).toHex();
   }
 })
